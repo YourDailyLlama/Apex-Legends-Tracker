@@ -8,3 +8,5 @@ Track somebody's stats on Apex Legends
 `cd client`
 <br>
 `npm i`
+<br>
+`npm run dev`
