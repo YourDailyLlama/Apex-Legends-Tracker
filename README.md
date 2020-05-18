@@ -18,3 +18,6 @@ Want to add more stuff to this project? Create a fork, then create a pull reques
 <br>
 ##### Back in the main folder
 `npm run dev`
+
+## Important
+The app is build upon the code of the tutorial made by Brad Traversy. Without him, this project would not existed today.
