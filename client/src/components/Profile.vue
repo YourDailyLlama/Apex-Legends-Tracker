@@ -6,7 +6,7 @@
 
     <div v-if="error">
       <h1>{{error}}</h1>
-      <router-link to="/">Go Back</router-link>
+      <router-link to="/">Go back</router-link>
     </div>
 
     <div v-if="profileData" class="container">
@@ -23,12 +23,6 @@
             <li>
               <h4>Selected legend</h4>
               <p>{{profileData.metadata.activeLegendName}}</p>
-            </li>
-            <li v-if="profileData.segments[0].stats.season5Wins">
-              <h4>Season 5 wins</h4>
-              <p>
-                {{profileData.segments[0].stats.season5Wins.displayValue}}
-              </p>
             </li>
             <li v-if="profileData.segments[0].stats.level">
               <h4>Level</h4>
